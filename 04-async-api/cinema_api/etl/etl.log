@@ -1,0 +1,743 @@
+2025-11-08 20:45:13.759 | INFO     | __main__:<module>:88 - Работаем
+2025-11-08 20:45:13.760 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:45:13.782 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:45:13.782 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:45:13.783 | DEBUG    | extract:extract_data:18 - Начали извлечение 0001-01-01 00:00:00
+2025-11-08 20:45:13.785 | ERROR    | __main__:<module>:95 - Ошибкаcolumn "fw.rating" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 4:     fw.rating as imdb_rating, 
+            ^
+
+2025-11-08 20:45:13.785 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:49:44.116 | INFO     | __main__:<module>:88 - Работаем
+2025-11-08 20:49:44.116 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:49:44.143 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:49:44.143 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:49:44.143 | DEBUG    | extract:extract_data:18 - Начали извлечение 0001-01-01 00:00:00
+2025-11-08 20:49:44.232 | DEBUG    | extract:extract_data:30 - Extracted 100 records from film_work
+2025-11-08 20:49:44.236 | ERROR    | __main__:<module>:95 - Ошибка5 validation errors for FilmElasticsearchModel
+genres.0
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Action', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.1
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Adventure', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.2
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Fantasy', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.3
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Sci-Fi', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres_names
+  Field required [type=missing, input_value={'id': '3d825f60-9fff-4df... 16, 20, 14, 9, 221855)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2025-11-08 20:49:44.237 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:49:54.237 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:49:54.258 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:49:54.258 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:49:54.259 | DEBUG    | extract:extract_data:18 - Начали извлечение 0001-01-01 00:00:00
+2025-11-08 20:49:54.354 | DEBUG    | extract:extract_data:30 - Extracted 100 records from film_work
+2025-11-08 20:49:54.355 | ERROR    | __main__:<module>:95 - Ошибка5 validation errors for FilmElasticsearchModel
+genres.0
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Action', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.1
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Adventure', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.2
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Fantasy', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.3
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Sci-Fi', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres_names
+  Field required [type=missing, input_value={'id': '3d825f60-9fff-4df... 16, 20, 14, 9, 221855)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2025-11-08 20:49:54.356 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:50:04.356 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:50:04.383 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:50:04.383 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:50:04.383 | DEBUG    | extract:extract_data:18 - Начали извлечение 0001-01-01 00:00:00
+2025-11-08 20:50:04.478 | DEBUG    | extract:extract_data:30 - Extracted 100 records from film_work
+2025-11-08 20:50:04.479 | ERROR    | __main__:<module>:95 - Ошибка5 validation errors for FilmElasticsearchModel
+genres.0
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Action', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.1
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Adventure', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.2
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Fantasy', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.3
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Sci-Fi', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres_names
+  Field required [type=missing, input_value={'id': '3d825f60-9fff-4df... 16, 20, 14, 9, 221855)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2025-11-08 20:50:04.479 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:50:14.479 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:50:14.499 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:50:14.499 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:50:14.500 | DEBUG    | extract:extract_data:18 - Начали извлечение 0001-01-01 00:00:00
+2025-11-08 20:50:14.589 | DEBUG    | extract:extract_data:30 - Extracted 100 records from film_work
+2025-11-08 20:50:14.590 | ERROR    | __main__:<module>:95 - Ошибка5 validation errors for FilmElasticsearchModel
+genres.0
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Action', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.1
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Adventure', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.2
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Fantasy', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.3
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Sci-Fi', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres_names
+  Field required [type=missing, input_value={'id': '3d825f60-9fff-4df... 16, 20, 14, 9, 221855)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2025-11-08 20:50:14.591 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:50:24.591 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:50:24.611 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:50:24.611 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:50:24.612 | DEBUG    | extract:extract_data:18 - Начали извлечение 0001-01-01 00:00:00
+2025-11-08 20:50:24.709 | DEBUG    | extract:extract_data:30 - Extracted 100 records from film_work
+2025-11-08 20:50:24.710 | ERROR    | __main__:<module>:95 - Ошибка5 validation errors for FilmElasticsearchModel
+genres.0
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Action', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.1
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Adventure', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.2
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Fantasy', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.3
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Sci-Fi', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres_names
+  Field required [type=missing, input_value={'id': '3d825f60-9fff-4df... 16, 20, 14, 9, 221855)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2025-11-08 20:50:24.711 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:50:34.711 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:50:34.729 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:50:34.729 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:50:34.729 | DEBUG    | extract:extract_data:18 - Начали извлечение 0001-01-01 00:00:00
+2025-11-08 20:50:34.830 | DEBUG    | extract:extract_data:30 - Extracted 100 records from film_work
+2025-11-08 20:50:34.831 | ERROR    | __main__:<module>:95 - Ошибка5 validation errors for FilmElasticsearchModel
+genres.0
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Action', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.1
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Adventure', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.2
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Fantasy', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.3
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Sci-Fi', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres_names
+  Field required [type=missing, input_value={'id': '3d825f60-9fff-4df... 16, 20, 14, 9, 221855)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2025-11-08 20:50:34.831 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:50:44.832 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:50:44.849 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:50:44.849 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:50:44.850 | DEBUG    | extract:extract_data:18 - Начали извлечение 0001-01-01 00:00:00
+2025-11-08 20:50:44.944 | DEBUG    | extract:extract_data:30 - Extracted 100 records from film_work
+2025-11-08 20:50:44.945 | ERROR    | __main__:<module>:95 - Ошибка5 validation errors for FilmElasticsearchModel
+genres.0
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Action', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.1
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Adventure', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.2
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Fantasy', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.3
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Sci-Fi', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres_names
+  Field required [type=missing, input_value={'id': '3d825f60-9fff-4df... 16, 20, 14, 9, 221855)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2025-11-08 20:50:44.945 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:50:54.945 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:50:54.963 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:50:54.963 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:50:54.963 | DEBUG    | extract:extract_data:18 - Начали извлечение 0001-01-01 00:00:00
+2025-11-08 20:50:55.051 | DEBUG    | extract:extract_data:30 - Extracted 100 records from film_work
+2025-11-08 20:50:55.052 | ERROR    | __main__:<module>:95 - Ошибка5 validation errors for FilmElasticsearchModel
+genres.0
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Action', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.1
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Adventure', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.2
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Fantasy', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.3
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Sci-Fi', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres_names
+  Field required [type=missing, input_value={'id': '3d825f60-9fff-4df... 16, 20, 14, 9, 221855)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2025-11-08 20:50:55.052 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:51:05.052 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:51:05.069 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:51:05.069 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:51:05.069 | DEBUG    | extract:extract_data:18 - Начали извлечение 0001-01-01 00:00:00
+2025-11-08 20:51:05.161 | DEBUG    | extract:extract_data:30 - Extracted 100 records from film_work
+2025-11-08 20:51:05.162 | ERROR    | __main__:<module>:95 - Ошибка5 validation errors for FilmElasticsearchModel
+genres.0
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Action', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.1
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Adventure', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.2
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Fantasy', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.3
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Sci-Fi', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres_names
+  Field required [type=missing, input_value={'id': '3d825f60-9fff-4df... 16, 20, 14, 9, 221855)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2025-11-08 20:51:05.162 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:51:15.163 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:51:15.180 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:51:15.180 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:51:15.180 | DEBUG    | extract:extract_data:18 - Начали извлечение 0001-01-01 00:00:00
+2025-11-08 20:51:15.287 | DEBUG    | extract:extract_data:30 - Extracted 100 records from film_work
+2025-11-08 20:51:15.288 | ERROR    | __main__:<module>:95 - Ошибка5 validation errors for FilmElasticsearchModel
+genres.0
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Action', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.1
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Adventure', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.2
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Fantasy', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.3
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Sci-Fi', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres_names
+  Field required [type=missing, input_value={'id': '3d825f60-9fff-4df... 16, 20, 14, 9, 221855)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2025-11-08 20:51:15.288 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:51:25.288 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:51:25.315 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:51:25.315 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:51:25.315 | DEBUG    | extract:extract_data:18 - Начали извлечение 0001-01-01 00:00:00
+2025-11-08 20:51:25.415 | DEBUG    | extract:extract_data:30 - Extracted 100 records from film_work
+2025-11-08 20:51:25.416 | ERROR    | __main__:<module>:95 - Ошибка5 validation errors for FilmElasticsearchModel
+genres.0
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Action', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.1
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Adventure', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.2
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Fantasy', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.3
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Sci-Fi', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres_names
+  Field required [type=missing, input_value={'id': '3d825f60-9fff-4df... 16, 20, 14, 9, 221855)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2025-11-08 20:51:25.416 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:51:35.416 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:51:35.431 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:51:35.431 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:51:35.431 | DEBUG    | extract:extract_data:18 - Начали извлечение 0001-01-01 00:00:00
+2025-11-08 20:51:35.525 | DEBUG    | extract:extract_data:30 - Extracted 100 records from film_work
+2025-11-08 20:51:35.526 | ERROR    | __main__:<module>:95 - Ошибка5 validation errors for FilmElasticsearchModel
+genres.0
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Action', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.1
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Adventure', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.2
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Fantasy', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.3
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Sci-Fi', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres_names
+  Field required [type=missing, input_value={'id': '3d825f60-9fff-4df... 16, 20, 14, 9, 221855)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2025-11-08 20:51:35.527 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:51:45.527 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:51:45.546 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:51:45.546 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:51:45.546 | DEBUG    | extract:extract_data:18 - Начали извлечение 0001-01-01 00:00:00
+2025-11-08 20:51:45.629 | DEBUG    | extract:extract_data:30 - Extracted 100 records from film_work
+2025-11-08 20:51:45.630 | ERROR    | __main__:<module>:95 - Ошибка5 validation errors for FilmElasticsearchModel
+genres.0
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Action', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.1
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Adventure', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.2
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Fantasy', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.3
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Sci-Fi', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres_names
+  Field required [type=missing, input_value={'id': '3d825f60-9fff-4df... 16, 20, 14, 9, 221855)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2025-11-08 20:51:45.630 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:51:55.630 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:51:55.648 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:51:55.649 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:51:55.649 | DEBUG    | extract:extract_data:18 - Начали извлечение 0001-01-01 00:00:00
+2025-11-08 20:51:55.732 | DEBUG    | extract:extract_data:30 - Extracted 100 records from film_work
+2025-11-08 20:51:55.733 | ERROR    | __main__:<module>:95 - Ошибка5 validation errors for FilmElasticsearchModel
+genres.0
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Action', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.1
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Adventure', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.2
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Fantasy', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres.3
+  Input should be a valid dictionary or instance of GenreModel [type=model_type, input_value='Sci-Fi', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/model_type
+genres_names
+  Field required [type=missing, input_value={'id': '3d825f60-9fff-4df... 16, 20, 14, 9, 221855)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2025-11-08 20:51:55.733 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:52:20.585 | INFO     | __main__:<module>:88 - Работаем
+2025-11-08 20:52:20.585 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:52:20.613 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:52:20.614 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:52:20.614 | DEBUG    | extract:extract_data:18 - Начали извлечение 0001-01-01 00:00:00
+2025-11-08 20:52:20.740 | DEBUG    | extract:extract_data:30 - Extracted 100 records from film_work
+2025-11-08 20:52:20.744 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:21.504 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:21.508 | DEBUG    | extract:extract_data:30 - Extracted 100 records from film_work
+2025-11-08 20:52:21.515 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:21.916 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:21.923 | DEBUG    | extract:extract_data:30 - Extracted 100 records from film_work
+2025-11-08 20:52:21.935 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:22.244 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:22.248 | DEBUG    | extract:extract_data:30 - Extracted 100 records from film_work
+2025-11-08 20:52:22.258 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:22.416 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:22.421 | DEBUG    | extract:extract_data:30 - Extracted 100 records from film_work
+2025-11-08 20:52:22.425 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:22.567 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:22.570 | DEBUG    | extract:extract_data:30 - Extracted 100 records from film_work
+2025-11-08 20:52:22.575 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:22.715 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:22.719 | DEBUG    | extract:extract_data:30 - Extracted 100 records from film_work
+2025-11-08 20:52:22.724 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:22.845 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:22.849 | DEBUG    | extract:extract_data:30 - Extracted 100 records from film_work
+2025-11-08 20:52:22.855 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:22.958 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:22.964 | DEBUG    | extract:extract_data:30 - Extracted 100 records from film_work
+2025-11-08 20:52:22.968 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:23.098 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:23.108 | DEBUG    | extract:extract_data:30 - Extracted 99 records from film_work
+2025-11-08 20:52:23.112 | DEBUG    | transform:transform_batch:28 - Сделано 99
+2025-11-08 20:52:23.218 | INFO     | load:load_data_batch:40 - Загружено 99
+2025-11-08 20:52:23.219 | INFO     | __main__:execute_etl_pipeline:69 - Процесс person
+2025-11-08 20:52:23.219 | DEBUG    | extract:extract_data:18 - Начали извлечение 0001-01-01 00:00:00
+2025-11-08 20:52:23.457 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:23.461 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:23.599 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:23.603 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:23.607 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:23.730 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:23.735 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:23.739 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:23.915 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:23.920 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:23.923 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:24.048 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:24.052 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:24.055 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:24.141 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:24.151 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:24.154 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:24.259 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:24.268 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:24.272 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:24.363 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:24.368 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:24.371 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:24.453 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:24.455 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:24.458 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:24.521 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:24.524 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:24.526 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:24.655 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:24.658 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:24.663 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:24.763 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:24.767 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:24.770 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:24.844 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:24.850 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:24.853 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:24.937 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:24.940 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:24.947 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:25.070 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:25.078 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:25.081 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:25.189 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:25.199 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:25.202 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:25.369 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:25.372 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:25.385 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:25.509 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:25.517 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:25.520 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:25.970 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:25.983 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:25.987 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:26.100 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:26.105 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:26.116 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:26.192 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:26.196 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:26.201 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:26.267 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:26.270 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:26.273 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:26.328 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:26.332 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:26.336 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:26.411 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:26.417 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:26.423 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:26.556 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:26.559 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:26.571 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:26.688 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:26.693 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:26.703 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:26.807 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:26.817 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:26.824 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:26.904 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:26.910 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:26.919 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:27.016 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:27.019 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:27.025 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:27.082 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:27.086 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:27.089 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:27.150 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:27.154 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:27.163 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:27.241 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:27.243 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:27.247 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:27.305 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:27.307 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:27.312 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:27.371 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:27.374 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:27.384 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:27.445 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:27.450 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:27.455 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:27.507 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:27.510 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:27.514 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:27.576 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:27.586 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:27.589 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:27.806 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:27.809 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:27.817 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:27.882 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:27.885 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:27.888 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:27.995 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:27.999 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:28.002 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:28.157 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:28.167 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:28.172 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:28.220 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:28.226 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:28.229 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:28.293 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:28.296 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:28.299 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:28.494 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:28.498 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:28.513 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:28.571 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:28.574 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:28.577 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:28.736 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:28.740 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:28.748 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:28.788 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:28.791 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:28.796 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:28.873 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:28.876 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:28.886 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:28.936 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:28.939 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:28.947 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:28.988 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:28.990 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:28.993 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:29.034 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:29.038 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:29.041 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:29.121 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:29.125 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:29.129 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:29.172 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:29.179 | DEBUG    | extract:extract_data:30 - Extracted 100 records from person
+2025-11-08 20:52:29.182 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:29.243 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:29.248 | DEBUG    | extract:extract_data:30 - Extracted 26 records from person
+2025-11-08 20:52:29.249 | DEBUG    | transform:transform_batch:28 - Сделано 26
+2025-11-08 20:52:29.284 | INFO     | load:load_data_batch:40 - Загружено 26
+2025-11-08 20:52:29.286 | INFO     | __main__:execute_etl_pipeline:69 - Процесс genre
+2025-11-08 20:52:29.287 | DEBUG    | extract:extract_data:18 - Начали извлечение 0001-01-01 00:00:00
+2025-11-08 20:52:29.503 | DEBUG    | extract:extract_data:30 - Extracted 100 records from genre
+2025-11-08 20:52:29.511 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:29.559 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:29.564 | DEBUG    | extract:extract_data:30 - Extracted 100 records from genre
+2025-11-08 20:52:29.571 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:29.655 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:29.659 | DEBUG    | extract:extract_data:30 - Extracted 100 records from genre
+2025-11-08 20:52:29.669 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:29.720 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:29.723 | DEBUG    | extract:extract_data:30 - Extracted 100 records from genre
+2025-11-08 20:52:29.727 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:29.782 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:29.785 | DEBUG    | extract:extract_data:30 - Extracted 100 records from genre
+2025-11-08 20:52:29.789 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:29.838 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:29.842 | DEBUG    | extract:extract_data:30 - Extracted 100 records from genre
+2025-11-08 20:52:29.849 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:29.886 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:29.889 | DEBUG    | extract:extract_data:30 - Extracted 100 records from genre
+2025-11-08 20:52:29.895 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:29.942 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:29.948 | DEBUG    | extract:extract_data:30 - Extracted 100 records from genre
+2025-11-08 20:52:29.953 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:30.006 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:30.009 | DEBUG    | extract:extract_data:30 - Extracted 100 records from genre
+2025-11-08 20:52:30.014 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:30.070 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:30.073 | DEBUG    | extract:extract_data:30 - Extracted 100 records from genre
+2025-11-08 20:52:30.081 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:30.146 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:30.149 | DEBUG    | extract:extract_data:30 - Extracted 100 records from genre
+2025-11-08 20:52:30.159 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:30.252 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:30.258 | DEBUG    | extract:extract_data:30 - Extracted 100 records from genre
+2025-11-08 20:52:30.263 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:30.306 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:30.309 | DEBUG    | extract:extract_data:30 - Extracted 100 records from genre
+2025-11-08 20:52:30.315 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:30.355 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:30.359 | DEBUG    | extract:extract_data:30 - Extracted 100 records from genre
+2025-11-08 20:52:30.364 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:30.423 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:30.426 | DEBUG    | extract:extract_data:30 - Extracted 100 records from genre
+2025-11-08 20:52:30.432 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:30.491 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:30.498 | DEBUG    | extract:extract_data:30 - Extracted 100 records from genre
+2025-11-08 20:52:30.507 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:30.579 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:30.583 | DEBUG    | extract:extract_data:30 - Extracted 100 records from genre
+2025-11-08 20:52:30.587 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:30.718 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:30.723 | DEBUG    | extract:extract_data:30 - Extracted 100 records from genre
+2025-11-08 20:52:30.735 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:30.795 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:30.798 | DEBUG    | extract:extract_data:30 - Extracted 100 records from genre
+2025-11-08 20:52:30.802 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:30.851 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:30.855 | DEBUG    | extract:extract_data:30 - Extracted 100 records from genre
+2025-11-08 20:52:30.858 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:31.025 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:31.037 | DEBUG    | extract:extract_data:30 - Extracted 100 records from genre
+2025-11-08 20:52:31.041 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:31.113 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:31.116 | DEBUG    | extract:extract_data:30 - Extracted 100 records from genre
+2025-11-08 20:52:31.125 | DEBUG    | transform:transform_batch:28 - Сделано 100
+2025-11-08 20:52:31.181 | INFO     | load:load_data_batch:40 - Загружено 100
+2025-11-08 20:52:31.183 | DEBUG    | extract:extract_data:30 - Extracted 31 records from genre
+2025-11-08 20:52:31.184 | DEBUG    | transform:transform_batch:28 - Сделано 31
+2025-11-08 20:52:31.217 | INFO     | load:load_data_batch:40 - Загружено 31
+2025-11-08 20:52:31.218 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:52:41.217 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:52:41.236 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:52:41.236 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:52:41.236 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.271850
+2025-11-08 20:52:41.241 | INFO     | __main__:execute_etl_pipeline:69 - Процесс person
+2025-11-08 20:52:41.242 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.514476
+2025-11-08 20:52:41.245 | INFO     | __main__:execute_etl_pipeline:69 - Процесс genre
+2025-11-08 20:52:41.245 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.310972
+2025-11-08 20:52:41.248 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:52:51.249 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:52:51.268 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:52:51.268 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:52:51.269 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.271850
+2025-11-08 20:52:51.274 | INFO     | __main__:execute_etl_pipeline:69 - Процесс person
+2025-11-08 20:52:51.274 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.514476
+2025-11-08 20:52:51.276 | INFO     | __main__:execute_etl_pipeline:69 - Процесс genre
+2025-11-08 20:52:51.276 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.310972
+2025-11-08 20:52:51.279 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:53:01.280 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:53:01.297 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:53:01.297 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:53:01.298 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.271850
+2025-11-08 20:53:01.304 | INFO     | __main__:execute_etl_pipeline:69 - Процесс person
+2025-11-08 20:53:01.304 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.514476
+2025-11-08 20:53:01.307 | INFO     | __main__:execute_etl_pipeline:69 - Процесс genre
+2025-11-08 20:53:01.307 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.310972
+2025-11-08 20:53:01.309 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:53:11.306 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:53:11.328 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:53:11.328 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:53:11.328 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.271850
+2025-11-08 20:53:11.345 | INFO     | __main__:execute_etl_pipeline:69 - Процесс person
+2025-11-08 20:53:11.345 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.514476
+2025-11-08 20:53:11.348 | INFO     | __main__:execute_etl_pipeline:69 - Процесс genre
+2025-11-08 20:53:11.349 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.310972
+2025-11-08 20:53:11.353 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:53:21.353 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:53:21.371 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:53:21.371 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:53:21.371 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.271850
+2025-11-08 20:53:21.379 | INFO     | __main__:execute_etl_pipeline:69 - Процесс person
+2025-11-08 20:53:21.379 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.514476
+2025-11-08 20:53:21.382 | INFO     | __main__:execute_etl_pipeline:69 - Процесс genre
+2025-11-08 20:53:21.382 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.310972
+2025-11-08 20:53:21.391 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:53:31.391 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:53:31.407 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:53:31.407 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:53:31.407 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.271850
+2025-11-08 20:53:31.411 | INFO     | __main__:execute_etl_pipeline:69 - Процесс person
+2025-11-08 20:53:31.411 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.514476
+2025-11-08 20:53:31.413 | INFO     | __main__:execute_etl_pipeline:69 - Процесс genre
+2025-11-08 20:53:31.414 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.310972
+2025-11-08 20:53:31.416 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:53:41.418 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:53:41.433 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:53:41.433 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:53:41.433 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.271850
+2025-11-08 20:53:41.437 | INFO     | __main__:execute_etl_pipeline:69 - Процесс person
+2025-11-08 20:53:41.437 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.514476
+2025-11-08 20:53:41.439 | INFO     | __main__:execute_etl_pipeline:69 - Процесс genre
+2025-11-08 20:53:41.440 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.310972
+2025-11-08 20:53:41.442 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:53:51.443 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:53:51.465 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:53:51.465 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:53:51.466 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.271850
+2025-11-08 20:53:51.472 | INFO     | __main__:execute_etl_pipeline:69 - Процесс person
+2025-11-08 20:53:51.472 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.514476
+2025-11-08 20:53:51.475 | INFO     | __main__:execute_etl_pipeline:69 - Процесс genre
+2025-11-08 20:53:51.475 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.310972
+2025-11-08 20:53:51.477 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:54:01.477 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:54:01.499 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:54:01.499 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:54:01.500 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.271850
+2025-11-08 20:54:01.506 | INFO     | __main__:execute_etl_pipeline:69 - Процесс person
+2025-11-08 20:54:01.508 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.514476
+2025-11-08 20:54:01.511 | INFO     | __main__:execute_etl_pipeline:69 - Процесс genre
+2025-11-08 20:54:01.512 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.310972
+2025-11-08 20:54:01.514 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:54:11.512 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:54:11.528 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:54:11.529 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:54:11.529 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.271850
+2025-11-08 20:54:11.535 | INFO     | __main__:execute_etl_pipeline:69 - Процесс person
+2025-11-08 20:54:11.537 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.514476
+2025-11-08 20:54:11.540 | INFO     | __main__:execute_etl_pipeline:69 - Процесс genre
+2025-11-08 20:54:11.541 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.310972
+2025-11-08 20:54:11.542 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:54:21.543 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:54:21.595 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:54:21.595 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:54:21.596 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.271850
+2025-11-08 20:54:21.602 | INFO     | __main__:execute_etl_pipeline:69 - Процесс person
+2025-11-08 20:54:21.603 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.514476
+2025-11-08 20:54:21.605 | INFO     | __main__:execute_etl_pipeline:69 - Процесс genre
+2025-11-08 20:54:21.616 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.310972
+2025-11-08 20:54:21.618 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:54:31.619 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:54:31.643 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:54:31.644 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:54:31.644 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.271850
+2025-11-08 20:54:31.653 | INFO     | __main__:execute_etl_pipeline:69 - Процесс person
+2025-11-08 20:54:31.653 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.514476
+2025-11-08 20:54:31.667 | INFO     | __main__:execute_etl_pipeline:69 - Процесс genre
+2025-11-08 20:54:31.668 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.310972
+2025-11-08 20:54:31.671 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:54:41.670 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:54:41.699 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:54:41.699 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:54:41.699 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.271850
+2025-11-08 20:54:41.707 | INFO     | __main__:execute_etl_pipeline:69 - Процесс person
+2025-11-08 20:54:41.707 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.514476
+2025-11-08 20:54:41.710 | INFO     | __main__:execute_etl_pipeline:69 - Процесс genre
+2025-11-08 20:54:41.710 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.310972
+2025-11-08 20:54:41.712 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:54:51.713 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:54:51.731 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:54:51.732 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:54:51.732 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.271850
+2025-11-08 20:54:51.739 | INFO     | __main__:execute_etl_pipeline:69 - Процесс person
+2025-11-08 20:54:51.740 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.514476
+2025-11-08 20:54:51.743 | INFO     | __main__:execute_etl_pipeline:69 - Процесс genre
+2025-11-08 20:54:51.743 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.310972
+2025-11-08 20:54:51.745 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:55:01.746 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:55:01.761 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:55:01.764 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:55:01.764 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.271850
+2025-11-08 20:55:01.779 | INFO     | __main__:execute_etl_pipeline:69 - Процесс person
+2025-11-08 20:55:01.779 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.514476
+2025-11-08 20:55:01.782 | INFO     | __main__:execute_etl_pipeline:69 - Процесс genre
+2025-11-08 20:55:01.784 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.310972
+2025-11-08 20:55:01.791 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:55:11.790 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:55:11.806 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:55:11.806 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:55:11.806 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.271850
+2025-11-08 20:55:11.814 | INFO     | __main__:execute_etl_pipeline:69 - Процесс person
+2025-11-08 20:55:11.815 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.514476
+2025-11-08 20:55:11.823 | INFO     | __main__:execute_etl_pipeline:69 - Процесс genre
+2025-11-08 20:55:11.824 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.310972
+2025-11-08 20:55:11.827 | INFO     | __main__:<module>:97 - Спим 10.0 сек.
+2025-11-08 20:55:21.828 | INFO     | __main__:<module>:92 - Начало итерации
+2025-11-08 20:55:21.850 | INFO     | load:create_index:19 - Уже создан movies
+2025-11-08 20:55:21.850 | INFO     | __main__:execute_etl_pipeline:69 - Процесс film_work
+2025-11-08 20:55:21.850 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.271850
+2025-11-08 20:55:21.860 | INFO     | __main__:execute_etl_pipeline:69 - Процесс person
+2025-11-08 20:55:21.861 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.514476
+2025-11-08 20:55:21.865 | INFO     | __main__:execute_etl_pipeline:69 - Процесс genre
+2025-11-08 20:55:21.866 | DEBUG    | extract:extract_data:18 - Начали извлечение 2021-06-16T20:14:09.310972
+2025-11-08 20:55:21.868 | INFO     | __main__:<module>:97 - Спим 10.0 сек.

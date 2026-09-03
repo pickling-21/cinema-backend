@@ -1,0 +1,40 @@
+### Health Check
+GET http://127.0.0.1:8000/health
+Accept: application/json
+
+### Signup - создать пользователя
+POST http://127.0.0.1:8000/api/v1/auth/signup
+Content-Type: application/json
+
+{
+"login": "abys",
+"password": "password123",
+"first_name": "Test",
+"last_name": "User"
+}
+
+### Login - получить токены
+POST http://127.0.0.1:8000/api/v1/auth/login
+Content-Type: application/json
+
+{
+"login": "abys",
+"password": "password123"
+}
+
+### Login - неверный пароль (ожидаем 401)
+POST http://127.0.0.1:8000/api/v1/auth/login
+Content-Type: application/json
+
+{
+"login": "testuser",
+"password": "wrong"
+}
+
+### Refresh - обновить токены (нужен refresh_token)
+POST http://127.0.0.1:8000/api/v1/auth/refresh
+Authorization: Bearer <refresh_token>
+
+### Logout - выйти (нужен access_token)
+POST http://127.0.0.1:8000/api/v1/auth/logout
+Authorization: Bearer <access_token>

@@ -1,0 +1,38 @@
+services:
+  service:
+    build: app
+    container_name: service
+
+    expose:
+      - "8000"
+    env_file:
+      - ./.env
+    depends_on:
+      - theatre-db
+    volumes:
+      - static:/var/wwww/static
+      - media:/var/wwww/media
+
+  nginx:
+    image: nginx:latest
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./configs:/etc/nginx/conf.d:ro
+      - static:/var/www/static:ro
+
+    depends_on:
+      - service
+    ports:
+      - "80:80"
+
+  theatre-db:
+    image: postgres:16
+    env_file:
+      - ./.env
+    volumes:
+      - ./database_dump.sql:/docker-entrypoint-initdb.d/init.sql
+    expose:
+      - "5432"
+volumes:
+  static:
+  media:

@@ -1,0 +1,21 @@
+[project]
+name = "test-fastapi"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "elasticsearch[async]==8.13.2",
+    "fastapi[standard]>=0.121.0",
+    "gunicorn>=23.0.0",
+    "loguru>=0.7.3",
+    "orjson>=3.11.4",
+    "pydantic-settings>=2.11.0",
+    "redis==5.0.4",
+    "pyjwt>=2.8.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "tests",
+]

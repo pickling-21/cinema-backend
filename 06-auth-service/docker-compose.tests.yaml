@@ -1,0 +1,52 @@
+name: auth-service-test
+
+services:
+  db:
+    image: postgres:16
+    container_name: test_postgres_db
+    env_file:
+      - .env.test
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d auth"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    ports:
+      - "5432:5432"
+
+  redis:
+    image: redis:latest
+    container_name: test_redis
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    ports:
+      - "6379:6379"
+
+  auth:
+    container_name: test_auth
+    build:
+      dockerfile: devops/Dockerfile.auth
+    env_file:
+      - .env.test
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+  tests:
+    container_name: test_runner
+    build:
+      dockerfile: devops/Dockerfile.tests
+    env_file:
+      - .env.test
+    depends_on:
+      auth:
+        condition: service_started
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
